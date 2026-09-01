@@ -1,0 +1,513 @@
+{
+ "name": "ppadv-plugins",
+ "description": "Marketplace unico do escritorio Pereira & Pereira Advogados Associados. Agrega todos os plugins juridicos adv-os num so ponto de instalacao, para nao estourar o limite de 25 marketplaces por conta.",
+ "owner": {
+  "name": "Pereira & Pereira Advogados Associados"
+ },
+ "plugins": [
+  {
+   "name": "agrario-adv-os",
+   "source": {
+    "source": "git-subdir",
+    "url": "https://github.com/sbroggioadv/agrario-adv-os-marketplace.git",
+    "path": "agrario-adv-os"
+   },
+   "description": "Especialista em Direito Agrário brasileiro ponta a ponta, para quem advoga pelo produtor rural e pelo agronegócio: contratos agrários (arrendamento, parceria, barter, integração, safra), crédito rural e dívida (CPR, cédulas, execução e embargos, revisional, prorrogação e a renegociação da MP 1.376/2026), recuperação judicial do produtor, terras e registral (due diligence, georreferenciamento, usucapião rural, estrangeiros, ITR), desapropriação e reforma agrária, ambiental do agro (CAR, PRA, auto de infração, embargo do IBAMA, licenciamento, EUDR) e o possessório do campo (despejo agrário, preferência do arrendatário), com recursos próprios até STJ e STF. Postura honesta e anti-alucinação por design.",
+   "author": {
+    "name": "Sbroggio Advocacia & IA Combativa"
+   }
+  },
+  {
+   "name": "auditoria-contabil-os",
+   "source": {
+    "source": "git-subdir",
+    "url": "https://github.com/sbroggioadv/auditoria-contabil-os-marketplace.git",
+    "path": "auditoria-contabil-os"
+   },
+   "description": "Plugin Claude Code para a contabilidade brasileira completa — atende clientes PJ e PF. Nucleo fiscal operacional: apuracoes tributarias (Simples, Lucro Presumido, Lucro Real, MEI, ICMS, ISS, IPI, PIS/COFINS, folha), obrigacoes acessorias e SPED (ECD, ECF, EFD, DCTFWeb), ingestao de arquivos XML/OFX/CSV, validacao de legislacao vigente nos tres niveis (federal, estadual, municipal) com eixo de localizacao por municipio/UF. Governanca de 4 Camadas, 20 Proibicoes Absolutas, 6 Protocolos Tecnicos e Revisao Tecnica R1-R4. 33 skills na v0.1 (Tier 0-3 + transversais). Onboarding via /start-auditoria-contabil. Configuravel ao perfil do escritorio contabil em runtime.",
+   "author": {
+    "name": "Sbroggio Advocacia & IA Combativa"
+   }
+  },
+  {
+   "name": "bancario-adv-os",
+   "source": {
+    "source": "git-subdir",
+    "url": "https://github.com/sbroggioadv/bancario-adv-os-marketplace.git",
+    "path": "bancario-adv-os"
+   },
+   "description": "Sistema operacional do advogado em acoes bancarias na perspectiva do cliente do banco. 35 skills: fraudes (golpe pix, falso funcionario, falso advogado, financiamento fraudulento), revisional (juros abusivos, anatocismo, tarifas, Price x SAC), superendividamento (Lei 14.181/2021), defesa em busca e apreensao e embargos, pericia contabil (previa + quesitos), camada extrajudicial (MED/Registrato/PROCON/ANPD) como fortalecimento probatorio, e recursos ate STJ/STF. Gate de varredura jurisprudencial antes de redigir + anti-halucinacao por design. Orquestrador bancario-master.",
+   "author": {
+    "name": "IA Combativa Adv-OS"
+   }
+  },
+  {
+   "name": "blindagem-peticao-os",
+   "source": {
+    "source": "git-subdir",
+    "url": "https://github.com/sbroggioadv/blindagem-peticao-os-marketplace.git",
+    "path": "blindagem-peticao-os"
+   },
+   "description": "Triagem de integridade de peça processual com IA — audita a petição recebida da parte contrária e a sua antes do protocolo. Detecta texto oculto e prompt injection (parsing local determinístico), unicode invisível e homóglifos, metadados vazando autoria, jurisprudência inventada e dispositivo de lei inexistente (conferência com fetch real na fonte), e transforma os achados em dossiê de integridade e tópico de impugnação por litigância de má-fé.",
+   "author": {
+    "name": "Sbroggio Advocacia & IA Combativa"
+   }
+  },
+  {
+   "name": "calculosjudiciais-adv-os",
+   "source": {
+    "source": "git-subdir",
+    "url": "https://github.com/sbroggioadv/calculosjudiciais-adv-os-marketplace.git",
+    "path": "calculosjudiciais-adv-os"
+   },
+   "description": "Sistema operacional do advogado em calculos judiciais brasileiros. 34 skills em 5 Tiers cobrindo civel, trabalhista, tributario, previdenciario, familia, criminal e consumidor: cumprimento de sentenca por TJ, RPV/precatorio, danos indenizatorios, debito condominial/locaticio, revisao bancaria, liquidacao trabalhista, verbas rescisorias, horas extras + reflexos, FGTS, atualizacao tributaria SELIC, RMI previdenciaria, alimentos atrasados, partilha de bens, pena de multa criminal, restituicao em dobro CDC. Diferenciais transversais: parser auditor PJE-CALC PDF, comparador de calculos lado a lado, auditor de laudo pericial contabil, gerador de quesitos a perito, contra-laudo. Cache local de 6 indices oficiais (Selic, IPCA, IPCA-E, INPC, TR, Taxa Legal CC406 pos Lei 14.905/2024). Anti-halucinacao por design.",
+   "author": {
+    "name": "IA Combativa Adv-OS"
+   }
+  },
+  {
+   "name": "cfo-combativo-os",
+   "source": {
+    "source": "git-subdir",
+    "url": "https://github.com/sbroggioadv/cfo-combativo-os-marketplace.git",
+    "path": "cfo-combativo-os"
+   },
+   "description": "CFO senior terceirizado para PF + PJ multi-entidade. Le extratos (OFX/CSV/XLSX), notas fiscais e contratos de credito; concilia, analisa e devolve diagnostico, municao decisoria e dashboards HTML. 24 skills: fluxo de caixa, KPIs de CFO, contas a pagar/receber, credito vs taxas do Banco Central, consolidacao multi-entidade (por entidade, por grupo e total), provisoes, orcamento, deteccao de anomalias, capacidade de credito, carga tributaria, triagem e envio a contabilidade com gate humano. Responde quanto posso gastar este mes, cria metas de poupanca e investimento. 100% local, anti-halucinacao por design (taxas oficiais ao vivo, nunca fabricadas), dado sensivel sob LGPD/LC 105. Municao nunca veredito de ilegalidade. Orquestrador cfo-master + auditoria-cfo R1-R4.",
+   "author": {
+    "name": "IA Combativa"
+   }
+  },
+  {
+   "name": "civel-adv-os",
+   "source": {
+    "source": "git-subdir",
+    "url": "https://github.com/sbroggioadv/civel-adv-os-marketplace.git",
+    "path": "civel-adv-os"
+   },
+   "description": "Plugin full-stack de contencioso civel brasileiro (Civil Litigation Master) — 64 skills em 9 camadas: procedimento comum (inicial, contestacao, replica, saneamento, instrucao, sentenca), tutelas de urgencia/evidencia, a gama de acoes civeis (indenizatoria, obrigacao de fazer/nao fazer, resolucao/revisional contratual, cobranca/monitoria, consignacao, declaratoria, anulatoria, possessorias, usucapiao, reivindicatoria, exigir contas, embargos de terceiro, rescisoria, producao antecipada de provas), recursos (ED, agravos, apelacao, REsp/RE), cumprimento e execucao (cumprimento de sentenca, impugnacao, penhora/expropriacao, defesa do executado, IDPJ/fraude, medidas atipicas) e incidentes (suspeicao/impedimento, conflito de competencia, IRDR/IAC, exibicao), com gestao processual transversal (tempestividade, gratuidade, competencia/foro, preliminares, valor da causa). Orquestrador civel-master, Suprema Corte R1-R4, fundacao juridica enraizada (CPC/2015 + CC/2002 + reformas + jurisprudencia STJ/STF). Anti-alucinacao por design.",
+   "author": {
+    "name": "Sbroggio Advocacia & IA Combativa"
+   }
+  },
+  {
+   "name": "consumidor-adv-os",
+   "source": {
+    "source": "git-subdir",
+    "url": "https://github.com/sbroggioadv/consumidor-adv-os-marketplace.git",
+    "path": "consumidor-adv-os"
+   },
+   "description": "Sistema operacional do advogado de Direito do Consumidor brasileiro — os dois lados. CDC ponta-a-ponta, Juizado Especial Cível completo, saúde suplementar contratual, práticas abusivas e cobrança, superendividamento, consumo digital, setoriais de volume, defesa do fornecedor e camada administrativa (PROCON e consumidor.gov.br). O orquestrador identifica no próprio pedido se você move a ação pelo consumidor ou defende a empresa, e cada tese nasce em par: ataque e defesa. Carrega a lei-seca capturada da fonte oficial e um protocolo anti-alucinação com catorze travas de defasagem.",
+   "author": {
+    "name": "IA Combativa"
+   }
+  },
+  {
+   "name": "criminal-adv-os",
+   "source": {
+    "source": "git-subdir",
+    "url": "https://github.com/sbroggioadv/criminal-adv-os-marketplace.git",
+    "path": "criminal-adv-os"
+   },
+   "description": "Plugin full-stack de defesa penal brasileira (Criminal Defense & Procedure Master) — 60 skills em 10 camadas. Orquestrador criminal-master que dirime todas as skills por tarefa, em toda a persecucao (investigacao, acao penal, instrucao, sentenca, recursos, execucao). Inclui o MOTOR PENAL TEMPORAL (prescricao, decadencia/perempcao, dosimetria, motor de calculo de pena, concurso, extincao da punibilidade), execucao penal (progressao, livramento, remicao, detracao, beneficios, incidentes), acordos (ANPP, transacao, sursis processual e penal), gestao processual (competencia, prazos, nulidades, cadeia de custodia), defesa e liberdade (flagrante/custodia, preventiva, resposta a acusacao, alegacoes, HC, MS criminal, investigacao defensiva), recursos (RESE, apelacao, embargos, REsp/RE, revisao criminal), tribunal do juri e nucleos de leis penais especiais (drogas, hediondos, orcrim, lavagem, violencia domestica). Fundacao juridica enraizada: CP + CPP + LEP consolidados + leis especiais + jurisprudencia STF/STJ, com a lei VIGENTE de 2024-2026 (art. 112 LEP reescrito pela Lei 15.402/2026; Antifacao Lei 15.358/2026; feminicidio autonomo Lei 14.994/2024). Suprema Corte criminal R1-R4 e anti-alucinacao por design. Foco: defesa.",
+   "author": {
+    "name": "Sbroggio Advocacia & IA Combativa"
+   }
+  },
+  {
+   "name": "direito-familia-adv-os",
+   "source": {
+    "source": "git-subdir",
+    "url": "https://github.com/sbroggioadv/direito-familia-adv-os-marketplace.git",
+    "path": "direito-familia-adv-os"
+   },
+   "description": "Plugin Claude Code/Cowork especializado em Direito de Familia brasileiro — FOCO JUDICIAL. 32 skills cobrindo divorcio litigioso, reconhecimento+dissolucao de uniao estavel, fixacao/revisao/execucao/exoneracao de alimentos (incl. gravidicos + Sum. 309 STJ + Tema 1.137 CNH/passaporte 2026), modificacao de guarda, alienacao parental (Lei 12.318), inventario judicial+ITCMD (com LC 227/2026 atualizada), analise tecnica de laudo psicossocial, tutelas de urgencia (8 modalidades), defesa side-aware e recursos completos (ED, AI CPC 1.015, Apelacao, REsp, RE). 4 Camadas (PA-01 a PA-25 + Protocolo P4 Cruzamento Multi-esfera + Revisao Tecnica R1-R4). Onboarding /start-familia.",
+   "author": {
+    "name": "Sbroggio Advocacia & IA Combativa"
+   }
+  },
+  {
+   "name": "direito-imobiliario-adv-os",
+   "source": {
+    "source": "git-subdir",
+    "url": "https://github.com/sbroggioadv/direito-imobiliario-adv-os-marketplace.git",
+    "path": "direito-imobiliario-adv-os"
+   },
+   "description": "Direito Imobiliario brasileiro ponta-a-ponta: contratos e due diligence, usucapiao e adjudicacao compulsoria extrajudicial, incorporacao, condominio e associacoes, locacao (Lei 8.245), acoes reais e possessorias, alienacao fiduciaria e hipoteca (Marco das Garantias), REURB e recursos ate STJ/STF.",
+   "author": {
+    "name": "Sbroggio Advocacia & IA Combativa"
+   }
+  },
+  {
+   "name": "direito-medico-adv-os",
+   "source": {
+    "source": "git-subdir",
+    "url": "https://github.com/sbroggioadv/direito-medico-adv-os-marketplace.git",
+    "path": "direito-medico-adv-os"
+   },
+   "description": "Sistema operacional do advogado especialista em direito medico e direito da saude. 37 skills + 11 commands + 4 hooks orquestrando defesa multi-frente do profissional (civil + criminal + etico-disciplinar), acoes contra plano de saude (oncologia, home care, OPME, TEA, reajuste, rescisao), consultivo empresarial para clinicas/sociedades medicas (Lei 12.842, LGPD, publicidade Res. CFM 2.336/2023) e revisao tecnica R1-R4 (Suprema Corte) em toda entrega. Inclui o Protocolo P4 — Cruzamento Multi-esfera (CC art. 935) para articulacao simultanea de civel, criminal e PED CRM/CRO.",
+   "author": {
+    "name": "Sbroggio Advocacia & IA Combativa"
+   }
+  },
+  {
+   "name": "eleitoral-adv-os",
+   "source": {
+    "source": "git-subdir",
+    "url": "https://github.com/sbroggioadv/eleitoral-adv-os-marketplace.git",
+    "path": "eleitoral-adv-os"
+   },
+   "description": "Especialista em Direito Eleitoral brasileiro dual — para quem move e para quem responde: AIRC, AIJE, AIME, 41-A, condutas vedadas, propaganda, contas e FEFC, crimes eleitorais, partidos e recursos até o TSE/STF. Sobre o Código Eleitoral, a Lei 9.504/97, a LC 64 (Ficha Limpa + LC 219/2025) e o ciclo TSE 2019 com as alterações de 2026. Postura honesta e anti-alucinação por design.",
+   "author": {
+    "name": "Sbroggio Advocacia & IA Combativa"
+   }
+  },
+  {
+   "name": "etica-adv-os",
+   "source": {
+    "source": "git-subdir",
+    "url": "https://github.com/sbroggioadv/etica-adv-os-marketplace.git",
+    "path": "etica-adv-os"
+   },
+   "description": "Sistema operacional do advogado no ético-disciplinar da OAB. Dual: atende quem se defende no TED e quem representa. 48 skills em 9 camadas — consultivo de publicidade (Provimento 205/2021), as 30 infrações do art. 34, dosimetria, TAC, prescrição, rito no TED e recursos internos da OAB. Base federal (Estatuto, Regulamento Geral, Código de Ética, Súmulas e Provimentos) com o rito da Seccional de São Paulo detalhado.",
+   "author": {
+    "name": "Sbroggio Advocacia & IA Combativa"
+   }
+  },
+  {
+   "name": "execucao-adv-os",
+   "source": {
+    "source": "git-subdir",
+    "url": "https://github.com/sbroggioadv/execucao-adv-os-marketplace.git",
+    "path": "execucao-adv-os"
+   },
+   "description": "Plugin Claude Code para advogados em execucao de titulo extrajudicial, acao monitoria e acao de cobranca. 22 skills end-to-end: classificacao do titulo (cheque/NP/duplicata/contrato/NF/boleto/multa contratual), competencia territorial (arvore 6 niveis com tabela ranqueada) e funcional (JEC/Comum/Federal/Fazenda), notificacao extrajudicial (constituicao em mora), calculo de atualizacao monetaria por tribunal (sem indices hardcoded), 3 peticoes iniciais (execucao/monitoria/cobranca), 3 defesas (embargos execucao/monitorios/contestacao), 6 recursos (embargos declaracao, apelacao, recurso inominado JEC, agravo instrumento, REsp STJ, RE STF), auditoria Suprema Corte R1-R4 em toda peca, gestao de prazos recursais (uteis vs corridos), tutela de urgencia, cumprimento de sentenca. Orquestrador execucao-master.",
+   "author": {
+    "name": "Sbroggio Advocacia & IA Combativa"
+   }
+  },
+  {
+   "name": "franchising-adv-os",
+   "source": {
+    "source": "git-subdir",
+    "url": "https://github.com/sbroggioadv/franchising-adv-os-marketplace.git",
+    "path": "franchising-adv-os"
+   },
+   "description": "Franchising Master — ciclo de vida completo da franquia brasileira (Lei 13.966/2019), da formatacao ao desfecho processual. Formatacao (COF 23 incisos, contrato empresarial, clausula de nao-concorrencia e de bandeira, DRE da unidade-modelo), manuais operacionais (abertura, arquitetonico, marca, operacoes), extrajudicial bidirecional (notificacao/resposta, aditivo de inclusao da PJ, distrato), contencioso (rescisao, anulatoria de COF, concorrencia desleal e cessacao de bandeira com tutela de urgencia, contestacao e reconvencao side-aware), execucao (debitos/royalties/fundo/multa) e recursos (AI, apelacao, REsp/RE). Premissa: franquia e relacao EMPRESARIAL — CDC nao incide entre franqueador e franqueado (art. 1o). 40 skills, orquestrador franchising-master, Suprema Corte R1-R4 e anti-alucinacao por design.",
+   "author": {
+    "name": "Sbroggio Advocacia & IA Combativa"
+   }
+  },
+  {
+   "name": "holding-architect",
+   "source": {
+    "source": "git-subdir",
+    "url": "https://github.com/sbroggioadv/holding-architect-marketplace.git",
+    "path": "holding-architect"
+   },
+   "description": "Arquiteto de holding patrimonial e sucessoria pelo metodo das 4 celulas (Cofre, Administradora de Bens, Holding de Participacoes, Gestora). Societario, integralizacao (ITBI Tema 796), tributario 2026 (Lei 15.270), doacao com usufruto e ITCMD, sucessorio, apuracao de haveres, JUCESP e offshore ponta-BR. Vende a verdade vigente: holding nao e blindagem.",
+   "author": {
+    "name": "Sbroggio Advocacia & IA Combativa"
+   }
+  },
+  {
+   "name": "ia-combativa-adv-os",
+   "source": {
+    "source": "git-subdir",
+    "url": "https://github.com/sbroggioadv/ia-combativa-adv-os-marketplace.git",
+    "path": "ia-combativa-adv-os"
+   },
+   "description": "Plugin Claude Code para advogados estruturarem IA juridica de excelencia. Onboarding interativo via /start. Batalhao Juridico (General + Estado-Maior + Comandantes + Tenentes + Suprema Corte R1-R4), 29 skills (pecas, contratos, contrarrazoes, replica, due diligence, holding, compliance LGPD, calculo juridico, jurisprudencia, visual law, marketing juridico, comunicacao com cliente, financeiro, escritorio, parecer, resumo de audiencia, peticao universal, estrategia de caso, analise trilateral, documentos extrajudiciais, firm-master, memory-evolver, cowork-onboarding/sync e Suprema Corte R1-R4), automacoes agendadas e suporte multi-dispositivo. 100% configuravel ao perfil do escritorio.",
+   "author": {
+    "name": "Mentoria IA Combativa"
+   }
+  },
+  {
+   "name": "imigracao-espanha-os",
+   "source": {
+    "source": "git-subdir",
+    "url": "https://github.com/sbroggioadv/imigracao-espanha-os-marketplace.git",
+    "path": "imigracao-espanha-os"
+   },
+   "description": "Assistente completo de imigração para a Espanha, com três frentes no mesmo produto: quem quer emigrar, quem vende o serviço e quem monta o processo. Catálogo pós-reforma: RD 1155/2024, arraigo, UGE, PEMA e nacionalidade. Gates: varredura de vigência + trava de representação (OAB ≠ abogacía).",
+   "author": {
+    "name": "IA Combativa"
+   }
+  },
+  {
+   "name": "imigracao-eua-os",
+   "source": {
+    "source": "git-subdir",
+    "url": "https://github.com/sbroggioadv/imigracao-eua-os-marketplace.git",
+    "path": "imigracao-eua-os"
+   },
+   "description": "Imigração para os EUA em 3 frentes (imigrante · comercial · advogado), com gaps materiais declarados e travas de vigência + 8 CFR 292.1. Não é software livre: o uso é licenciado pela compra (Kirvano) — ver LICENSE.",
+   "author": {
+    "name": "IA Combativa"
+   }
+  },
+  {
+   "name": "imigracao-paraguai-os",
+   "source": {
+    "source": "git-subdir",
+    "url": "https://github.com/sbroggioadv/imigracao-paraguai-os-marketplace.git",
+    "path": "imigracao-paraguai-os"
+   },
+   "description": "Assistente completo de imigração para o Paraguai: Ley 6984/2022, MERCOSUL, permanente 2026 e Investor Pass. Gates: vigência + representação (OAB ≠ matrícula PY).",
+   "author": {
+    "name": "IA Combativa"
+   }
+  },
+  {
+   "name": "imigracao-portugal-os",
+   "source": {
+    "source": "git-subdir",
+    "url": "https://github.com/sbroggioadv/imigracao-portugal-os-marketplace.git",
+    "path": "imigracao-portugal-os"
+   },
+   "description": "Imigração para Portugal em 3 frentes (imigrante · comercial · advogado): vistos, CPLP, reagrupamento, nacionalidade 2026, asilo/NAV. Travas anti-defasagem e anti-UPL (OAB ≠ OA). Gaps declarados. Não é software livre: o uso é licenciado pela compra (Kirvano) — ver LICENSE.",
+   "author": {
+    "name": "IA Combativa"
+   }
+  },
+  {
+   "name": "imigracao-uruguai-os",
+   "source": {
+    "source": "git-subdir",
+    "url": "https://github.com/sbroggioadv/imigracao-uruguai-os-marketplace.git",
+    "path": "imigracao-uruguai-os"
+   },
+   "description": "Assistente completo de imigração para o Uruguai: permanente MERCOSUL direta, DNM (não MRREE), HIP e ciudadanía legal ≠ nacionalidad. Gates: vigência + representação.",
+   "author": {
+    "name": "IA Combativa"
+   }
+  },
+  {
+   "name": "jurimetria-os",
+   "source": {
+    "source": "git-subdir",
+    "url": "https://github.com/sbroggioadv/jurimetria-os-marketplace.git",
+    "path": "jurimetria-os"
+   },
+   "description": "Motor de jurimetria preditiva para advogados. Da descricao de uma demanda, cruza dados empiricos do DataJud (API publica CNJ) com jurisprudencia e entrega percentual de exito (procedencia/improcedencia/parcial) com tamanho de amostra e intervalo de confianca declarados, parecer tecnico fundamentado e dashboard visual (HTML + PDF). Motor Python deterministico (Elasticsearch DataJud + parser de movimentos TPU + intervalo de Wilson). Anti-halucinacao por design: nunca reporta numero sem amostra e confianca, nunca inventa jurisprudencia. 9 skills + auditoria R1-R4. Orquestrador jurimetria-master.",
+   "author": {
+    "name": "IA Combativa"
+   }
+  },
+  {
+   "name": "juris-adv-os",
+   "source": {
+    "source": "git-subdir",
+    "url": "https://github.com/sbroggioadv/juris-adv-os-marketplace.git",
+    "path": "juris-adv-os"
+   },
+   "description": "Plugin focado em pesquisa, validacao e auditoria de jurisprudencia. 4 skills: buscar-jurisprudencia (portais oficiais STF, STJ, TST, TRFs, TJs + agregadores JusBrasil/Escavador), validar-jurisprudencia (WebFetch real em cada URL com status ✅/⚠️/🔴), auditoria-pre-envio (checagem 3D de inteiro teor + link + nexo a tese do usuario antes da citacao), formatar-citacao (ABNT NBR 6023/10520 + bloco pronto-pra-peca). Comando /juris dispara a cadeia. Sem orquestrador, sem onboarding: instalou, rodou, funcionou.",
+   "author": {
+    "name": "Sbroggio Advocacia & IA Combativa"
+   }
+  },
+  {
+   "name": "legalized-jur",
+   "source": {
+    "source": "git-subdir",
+    "url": "https://github.com/sbroggioadv/legalized-jur-marketplace.git",
+    "path": "legalized-jur"
+   },
+   "description": "Copywriter juridico de alta performance para advogados brasileiros. Redige WhatsApp e email no tom configurado pelo advogado, traduz juridiques para o cliente leigo, e aplica checklist OAB+LGPD automatico antes de devolver opcoes. Persona configuravel (3 presets + custom), compliance baseado em Lei 8.906/94, Codigo de Etica OAB 2015, Provimento 205/2021 e LGPD.",
+   "author": {
+    "name": "IA Combativa"
+   }
+  },
+  {
+   "name": "leiloes-os",
+   "source": {
+    "source": "git-subdir",
+    "url": "https://github.com/sbroggioadv/leiloes-os-marketplace.git",
+    "path": "leiloes-os"
+   },
+   "description": "Especialista em leilões judiciais e extrajudiciais brasileiros ponta a ponta, para os DOIS lados do mesmo evento — quem arremata e quem perde o imóvel — e para os DOIS públicos: advogado e investidor. Cobre a due diligence do arrematante (edital, matrícula, ocupação, débitos propter rem, risco de anulação e teto de lance), a mecânica do leilão judicial (CPC arts. 879-903 + Res. CNJ 236), a alienação fiduciária extrajudicial (Lei 9.514 e Marco das Garantias 14.711/2023), a invalidação e os embargos, a comissão e a prestação de contas do leiloeiro, o registro, o ITBI e a regularização — com recursos próprios até STJ e STF. Anti-alucinação por design: nenhum percentual sai sem a base de cálculo nomeada.",
+   "author": {
+    "name": "Sbroggio Advocacia & IA Combativa"
+   }
+  },
+  {
+   "name": "licitacoes-adv-os",
+   "source": {
+    "source": "git-subdir",
+    "url": "https://github.com/sbroggioadv/licitacoes-adv-os-marketplace.git",
+    "path": "licitacoes-adv-os"
+   },
+   "description": "Sistema operacional do advogado brasileiro especialista em licitacoes (Lei 14.133/2021) e contratos administrativos. 33 skills em 7 Tiers cobrindo consultivo pre-edital, impugnacao, recurso, contrato, sancao, PAR Lei 12.846, representacao TCU/TCE e judicial (MS, anulatoria, cobranca). Governanca de 4 Camadas (22 PAs + 6 Protocolos + Revisao R1-R4).",
+   "author": {
+    "name": "Sbroggio Advocacia & IA Combativa"
+   }
+  },
+  {
+   "name": "marca-inpi-adv-os",
+   "source": {
+    "source": "git-subdir",
+    "url": "https://github.com/sbroggioadv/marca-inpi-adv-os-marketplace.git",
+    "path": "marca-inpi-adv-os"
+   },
+   "description": "Plugin full-stack de Direito Marcario brasileiro: pesquisa de anterioridade, classificacao NCL, proposta e contrato por classe, deposito no INPI; contencioso administrativo (oposicao, recurso, PAN, caducidade, alto renome, Madri) e judicial (abstencao, concorrencia desleal, nulidade na Justica Federal, recursos). 37 skills, orquestrador marcas-master, Suprema Corte R1-R4, fundacao juridica enraizada.",
+   "author": {
+    "name": "Sbroggio Advocacia & IA Combativa"
+   }
+  },
+  {
+   "name": "marketing-adv-os",
+   "source": {
+    "source": "git-subdir",
+    "url": "https://github.com/sbroggioadv/marketing-adv-os-marketplace.git",
+    "path": "marketing-adv-os"
+   },
+   "description": "Plugin completo de marketing juridico/comercial. 47 skills: wizard de onboarding, identidade visual (paleta + voz + tipografia + tokens CSS), 18 skills de copywriting, 6 skills de artes (PNG/PPTX/Carrossel/Stories/Reels), 5 skills de producao (Landing Page HTML+Next/Ebook/Slides), 5 integracoes opt-in (Meta Ads/Canva/Postiz/Email broadcast), 5 skills de auditoria via Diretoria Criativa R1-R4. Track A (advogado/escritorio) ou Track B (empresario/criador).",
+   "author": {
+    "name": "Sbroggio Advocacia & IA Combativa"
+   }
+  },
+  {
+   "name": "opositor-os",
+   "source": {
+    "source": "git-subdir",
+    "url": "https://github.com/sbroggioadv/opositor-os-marketplace.git",
+    "path": "opositor-os"
+   },
+   "description": "Fiscalização de ato público com IA. Do vício publicado no diário oficial à peça roteada no órgão certo — representação a Tribunal de Contas e Ministério Público, denúncia à Câmara, impugnação de edital e pedido de acesso à informação. Sempre como pedido de apuração, com aviso de risco de denunciação caluniosa antes de gerar qualquer peça.",
+   "author": {
+    "name": "IA Combativa"
+   }
+  },
+  {
+   "name": "previdenciario-adv-os",
+   "source": {
+    "source": "git-subdir",
+    "url": "https://github.com/sbroggioadv/previdenciario-adv-os-marketplace.git",
+    "path": "previdenciario-adv-os"
+   },
+   "description": "Plugin Claude Code especializado em Direito Previdenciario Brasileiro (RGPS + RPPS + Previdencia Complementar + Acidentario). Hierarquia de 4 camadas com 22 Proibicoes Absolutas, 5 protocolos tecnicos (jurisprudencial, infralegal, pericia medica, calculos, compartimentacao de escopos), Suprema Corte R1-R4 e 26 skills modulares (Tier 0/1/2/3). Onboarding interativo via /start-previdenciario.",
+   "author": {
+    "name": "Sbroggio Advocacia & IA Combativa"
+   }
+  },
+  {
+   "name": "prisma-julgador-os",
+   "source": {
+    "source": "git-subdir",
+    "url": "https://github.com/sbroggioadv/prisma-julgador-os-marketplace.git",
+    "path": "prisma-julgador-os"
+   },
+   "description": "A peça lida pelo prisma de quem vai julgá-la. Identifica o órgão julgador (DataJud + regras de distribuição do CPC), monta o perfil estatístico real daquele órgão com n e intervalo de confiança, varre a jurisprudência filtrada por relator com fetch real, cruza a tese na matriz de aderência, reescreve a ênfase da peça sem trocar o mérito e roda revisão adversarial em 3 vozes: magistrado do caso, parte contrária e Suprema Corte R1-R4. Perfil não é previsão — humildade obrigatória, sempre.",
+   "author": {
+    "name": "Sbroggio Advocacia & IA Combativa"
+   }
+  },
+  {
+   "name": "procurador-estadual-os",
+   "source": {
+    "source": "git-subdir",
+    "url": "https://github.com/sbroggioadv/procurador-estadual-os-marketplace.git",
+    "path": "procurador-estadual-os"
+   },
+   "description": "Sistema operacional do procurador estadual: prerrogativas fazendárias, execução fiscal, defesa do ente, parecer consultivo, tributos estaduais, controle externo e controle de vigência.",
+   "author": {
+    "name": "Sbroggio Advocacia & IA Combativa"
+   }
+  },
+  {
+   "name": "procurador-federal-os",
+   "source": {
+    "source": "git-subdir",
+    "url": "https://github.com/sbroggioadv/procurador-federal-os-marketplace.git",
+    "path": "procurador-federal-os"
+   },
+   "description": "Sistema operacional da advocacia pública federal: AGU, PGF, PGU e PGFN, execução fiscal da União, CARF, transação tributária, autarquias, INSS, servidores e controle de vigência.",
+   "author": {
+    "name": "Sbroggio Advocacia & IA Combativa"
+   }
+  },
+  {
+   "name": "procurador-municipal-os",
+   "source": {
+    "source": "git-subdir",
+    "url": "https://github.com/sbroggioadv/procurador-municipal-os-marketplace.git",
+    "path": "procurador-municipal-os"
+   },
+   "description": "Sistema operacional do procurador municipal e do escritório que atende municípios: prerrogativas fazendárias, execução fiscal, defesa do ente, parecer consultivo, tributos municipais e controle de vigência.",
+   "author": {
+    "name": "Sbroggio Advocacia & IA Combativa"
+   }
+  },
+  {
+   "name": "resp-re-os",
+   "source": {
+    "source": "git-subdir",
+    "url": "https://github.com/sbroggioadv/resp-re-os-marketplace.git",
+    "path": "resp-re-os"
+   },
+   "description": "Corte superior: REsp com tópico de relevância (Lei 15.484/2026) e RE com repercussão geral. Sem onboarding. Não promete afetação nem conhecimento.",
+   "author": {
+    "name": "IA Combativa"
+   }
+  },
+  {
+   "name": "tabelionato-os",
+   "source": {
+    "source": "git-subdir",
+    "url": "https://github.com/sbroggioadv/tabelionato-os-marketplace.git",
+    "path": "tabelionato-os"
+   },
+   "description": "Tabelionato de Notas ponta a ponta: 61 skills em 9 camadas sobre a Lei 8.935/94, o Código Nacional de Normas (Prov. CNJ 149/2023) e as 27 corregedorias estaduais. Escritura, ata notarial, procuração, testamento e ato eletrônico; a sequência do ato e as cinco categorias de trava; desjudicialização (inventário, usucapião, adjudicação, arrematação); conformidade regulatória de IA em serventia; acervo digital; e a defesa técnica do delegatário em PAD. O motor UF-aware pergunta o estado antes de responder — porque só 4 UFs regularam IA em cartório, com posturas opostas.",
+   "author": {
+    "name": "IA Combativa"
+   }
+  },
+  {
+   "name": "trabalhista-adv-os",
+   "source": {
+    "source": "git-subdir",
+    "url": "https://github.com/sbroggioadv/trabalhista-adv-os-marketplace.git",
+    "path": "trabalhista-adv-os"
+   },
+   "description": "Plugin Claude Code especializado em Direito e Processo do Trabalho brasileiro. Atende os dois polos da Reclamacao Trabalhista — reclamante e reclamada — com orquestrador side-aware, triagem trilateral, auditoria de documentos, 32 skills (Tier 0/1/2/3), Suprema Corte R1-R4 e busca viva de jurisprudencia. Hierarquia de 4 camadas: 25 Proibicoes Absolutas, 7 Protocolos Tecnicos, identidade FIRAC e skills operacionais.",
+   "author": {
+    "name": "Sbroggio Advocacia & IA Combativa"
+   }
+  },
+  {
+   "name": "transito-adv-os",
+   "source": {
+    "source": "git-subdir",
+    "url": "https://github.com/sbroggioadv/transito-adv-os-marketplace.git",
+    "path": "transito-adv-os"
+   },
+   "description": "Defesa do condutor no Direito do Transito: anular multa e infracao, salvar a CNH (cacada/suspensa/bloqueada), recorrer no DETRAN/JARI/CETRAN e no Judiciario, e resolver pedagio. Administrativo (defesa/recurso/suspensao/cassacao/pontuacao/bafometro) + civel-anulatoria/MS + recursos ate STJ/STF. CTB + Lei 14.071/2020, 14.599/2023, 15.428/2026 + Resolucoes CONTRAN. Anti-alucinacao por design; nao promete anular qualquer multa.",
+   "author": {
+    "name": "Sbroggio Advocacia & IA Combativa"
+   }
+  },
+  {
+   "name": "triagem-pro",
+   "source": {
+    "source": "github",
+    "repo": "sbroggioadv/triagem-pro"
+   },
+   "description": "Agente de triagem de WhatsApp para escritorios de advocacia. Plugin Claude Code/Cowork com triagem por urgencia, redator com voz propria da advogada, guardrail OAB (5 travas), 4 comandos de supervisao e wizard de instalacao 100% pelo chat. Roda na maquina/sessao da compradora, sem servidor intermediario.",
+   "author": {
+    "name": "Triagem Pro",
+    "url": "https://github.com/sbroggioadv/triagem-pro"
+   }
+  },
+  {
+   "name": "tributario-societario-adv-os",
+   "source": {
+    "source": "git-subdir",
+    "url": "https://github.com/sbroggioadv/tributario-societario-adv-os-marketplace.git",
+    "path": "tributario-societario-adv-os"
+   },
+   "description": "Plugin Claude Code para advocacia empresarial brasileira — tributário e societário. Atende consultivo (constituição, holdings 1/2/3 células, offshore, trust, planejamento tributário e sucessório, M&A, reorganizações) e contencioso (CARF, TIT, execução fiscal, mandado de segurança, recursos). Validação de legislação vigente como premissa (lei é alvo móvel — reforma tributária 2026-2033). 33 skills Tier 0-6, 6 Protocolos Técnicos, 22 Proibições Absolutas, Suprema Corte R1-R4. Onboarding via /start-tributario-societario. 100% configurável ao perfil do escritório em runtime.",
+   "author": {
+    "name": "Sbroggio Advocacia & IA Combativa"
+   }
+  }
+ ]
+}
