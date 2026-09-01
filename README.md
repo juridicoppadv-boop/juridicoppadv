@@ -1,0 +1,2 @@
+# juridicoppadv
+repositorio do escritorio
